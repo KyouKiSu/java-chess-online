@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="LoginScreen">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-14683648"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="e7ddb" binding="LoginThings" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <enabled value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="7dde2" binding="loginPanel" layout-manager="GridLayoutManager" row-count="3" column-count="2" same-size-horizontally="true" same-size-vertically="true" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <minimumSize width="73" height="79"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="540da" class="javax.swing.JTextField" binding="loginField">
+                <constraints>
+                  <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties/>
+              </component>
+              <hspacer id="f996">
+                <constraints>
+                  <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </hspacer>
+              <vspacer id="f662b">
+                <constraints>
+                  <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                </constraints>
+              </vspacer>
+              <component id="9cec6" class="javax.swing.JLabel" binding="loginLabel">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="10"/>
+                  <text value="Login"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="7138f" binding="passwordPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <background color="-909824"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="9d76e" class="javax.swing.JLabel">
+                <constraints border-constraint="Center"/>
+                <properties>
+                  <text value="Label"/>
+                </properties>
+              </component>
+              <component id="776d5" class="javax.swing.JPasswordField" binding="passwordField1" default-binding="true">
+                <constraints border-constraint="South"/>
+                <properties/>
+              </component>
+              <hspacer id="9b83d">
+                <constraints border-constraint="East"/>
+              </hspacer>
+              <vspacer id="f5d31">
+                <constraints border-constraint="North"/>
+              </vspacer>
+            </children>
+          </grid>
+          <component id="53cc8" class="javax.swing.JButton" binding="logInSignUpButton" default-binding="true">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="1.0"/>
+            </constraints>
+            <properties>
+              <text value="Log in / Sign up"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
